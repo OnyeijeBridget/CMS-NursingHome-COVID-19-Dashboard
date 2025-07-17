@@ -1,10 +1,5 @@
 # CMS-NursingHome-COVID-19-Dashboard
 
-#Brief Description
-Excel-based data analysis and dashboard project using CMS Nursing Home COVID-19 data. Focused on data cleaning, quality assurance filtering, vaccination rate calculations, state and facility-level insights with PivotTables, DAX Measures, and Power Query
-
-
-#Project Overview
 This project presents a comprehensive analysis of the CMS Nursing Home COVID-19 dataset, leveraging Excel as a full-stack analytics tool to assess facility-level data integrity, vaccination performance, and public health outcomes across U.S. states. The dataset—known for its complexity and reporting inconsistencies—was subjected to rigorous cleaning and quality assurance filtering, reducing 14,791 raw records to a trusted analytical base of 62% high-quality entries.
 
 Using Power Query, I implemented rule-based data exclusion to remove nulls, invalid provider IDs, and non-submitted reports, preserving only QA-compliant facilities. 
