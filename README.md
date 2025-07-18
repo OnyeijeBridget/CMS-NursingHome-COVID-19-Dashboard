@@ -11,7 +11,7 @@ This project reflects a strong grasp of healthcare data analysis, Excel modeling
 
 
 
-_Portfolio Analysis Questions_
+**Portfolio Analysis Questions**
 
  1. Which states or facilities reported the highest number of confirmed COVID-19 cases and deaths
  during the reporting week?
