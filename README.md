@@ -1,26 +1,63 @@
-# CMS-NursingHome-COVID-19-Dashboard
+# CMS Nursing Home COVID-19 Dashboard  
 
-This project presents a comprehensive analysis of the CMS Nursing Home COVID-19 dataset, leveraging Excel as a full-stack analytics tool to assess facility-level data integrity, vaccination performance, and public health outcomes across U.S. states. The dataset—known for its complexity and reporting inconsistencies—was subjected to rigorous cleaning and quality assurance filtering, reducing 14,791 raw records to a trusted analytical base of 62% high-quality entries.
+### 📌 Project Description  
+An exploratory analysis of the CMS COVID-19 Nursing Home dataset (14,791 rows across facilities in all 50 U.S. states) using **Excel**.  
+The project identifies the most affected states and facilities, evaluates vaccination rates among residents and staff, and highlights data quality issues.  
 
-Using Power Query, I implemented rule-based data exclusion to remove nulls, invalid provider IDs, and non-submitted reports, preserving only QA-compliant facilities. 
-Key metrics, such as up-to-date staff and resident vaccination rates, confirmed weekly COVID-19 cases, and QA pass distributions, were engineered using robust DAX measures and dynamically linked PivotTables.
+---
 
-The resulting multi-page dashboard visualizes the top 20 states by COVID-19 burden and vaccination rates, uncovers potential reporting bias due to data retention thresholds, and provides actionable insights for data quality improvement. Special attention was given to filtering logic, denominator integrity in percentage calculations, and the risk of overestimating performance post-cleaning.
+### 📂 Dataset Source  
+- CMS (Centers for Medicare & Medicaid Services) Nursing Home COVID-19 Data  
+- [Link to Dataset](https://data.cms.gov/)  
 
-This project reflects a strong grasp of healthcare data analysis, Excel modeling, and the importance of data quality in operational reporting. It exemplifies stakeholder-driven analytics—translating messy public health data into credible, insight-ready visuals for performance monitoring, benchmarking, and strategic planning.
+---
 
+### 🛠️ Tools Used  
+- Microsoft Excel (Power Query, Power Pivot, Pivot Tables, DAX)  
+- Power BI (for dashboard design, optional)  
 
+---
 
-**Portfolio Analysis Questions**
+### 🔑 Key Steps  
+**Data Cleaning**  
+- Removed irrelevant columns and standardized data types  
+- Filtered out 253 invalid provider rows & null values (reduced dataset to 9,167 rows)  
+- Replaced categorical values (`Y` → `Yes`)  
+- Formatted date and numerical fields  
 
- 1. Which states or facilities reported the highest number of confirmed COVID-19 cases and deaths
- during the reporting week?
+**Data Analysis**  
+- Created calculated measures (% resident vaccination, % staff vaccination, etc.)  
+- Modeled relationships between cleaned data tables for quality checks  
+- Used PivotTables for state- and facility-level summaries  
 
- 2. What percentage of residents and staff are up to date with their COVID-19 vaccinations across
- facilities and states?
+**Data Visualization**  
+- Designed a **3-page Excel dashboard**:  
+  1. Staff Vaccination Trends  
+  2. Resident Vaccination Trends  
+  3. Data Quality Issues  
 
- 3. Which facilities or states had the highest case fatality rates (deaths ÷ confirmed cases), and what
- might explain those differences?
- 
- 4. Are there any data quality or reporting gaps that could affect the accuracy of this week's
- numbers?
+---
+
+### 📊 Dashboard Preview  
+![Dashboard Page 1](./CMS%20Dashboard%20page%201.PNG)  
+![Dashboard Page 2](./CMS%20Dashboard%202.PNG)  
+![Dashboard Page 3](./CMS%20Dashboard%203.PNG)  
+
+---
+
+### 📈 Insights & Results  
+- States in the Northeast had the **highest case rates** among residents.  
+- Facilities with **low staff vaccination** correlated with higher resident infections.  
+- Significant **data quality gaps** were found (incomplete submissions, invalid IDs).  
+- After cleaning, only ~62% of the dataset was reliable for analysis.  
+
+---
+
+### 🔗 Files  
+- [Cleaned Dataset (Excel)](./Cleaned_CMS_Data.xlsx)  
+- [Dashboard File (Excel)](./CMS_COVID_Dashboard.xlsx)  
+
+---
+
+### 🌐 Live / Downloadable Version  
+- [Download Dashboard File](./CMS_COVID_Dashboard.xlsx)  
