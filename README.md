@@ -14,7 +14,6 @@ The project identifies the most affected states and facilities, evaluates vaccin
 
 ### 🛠️ Tools Used  
 - Microsoft Excel (Power Query, Power Pivot, Pivot Tables, DAX)  
-- Power BI (for dashboard design, optional)  
 
 ---
 
